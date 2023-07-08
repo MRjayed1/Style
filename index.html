@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My web</title>
-    <link rel="stylesheet" href="style/index.css">
+    <style>
+        table{
+           
+            padding: 5px;
+            border-collapse: collapse;
+            
+        }
+        td{
+            
+            border: 2px solid black;
+            padding: 5px 10px;
+            
+        }
+    </style>
+  
+
 </head>
 <body>
-    <div>
-        <h3 class="bokku">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aspernatur cumque nihil voluptate ut error eius cupiditate repudiandae, sit nam.</h3>
-    </div>
+  <h2 style="text-align: center;" >A basic HTML table</h2>
+   <table>
+    <thead>
+        <tr> 
+        <th>No</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody><tr>
+        <td>1</td>
+        <td>Jayed</td>
+        <td>Moulvibazar</td>
+        <td>5.00</td>
+    </tr>
+    <tr>
+       <td>2</td>
+       <td>Fahmid</td>
+       <td>Golapgonj</td>
+       <td>5.00</td> 
+    </tr>
+    </tbody>
+    
+   <tfoot>
+    <tr> 
+        <td style="text-align: center;" colspan="4">total perticipate=2</td>
+    </tr>
+    
+   </tfoot>
+   </table>
+   
+ 
 </body>
 </html>
